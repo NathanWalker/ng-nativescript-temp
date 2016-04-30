@@ -1,0 +1,6 @@
+<ActionBar title="Create">
+    <NavigationButton text="Back" android.systemIcon="ic_menu_back"></NavigationButton>
+</ActionBar>
+<StackLayout>
+    <Label text="Create Item" class="title"></Label>
+</StackLayout>

@@ -1,0 +1,10 @@
+<ActionBar title="Todo List">
+    <ActionItem text="Create" (tap)="create()" ios.position="right"></ActionItem>
+</ActionBar>
+<GridLayout>
+    <ListView [items]="todoList">
+        <template #item="item">
+            <Label [text]="item"></Label>
+        </template>
+    </ListView>
+</GridLayout>
