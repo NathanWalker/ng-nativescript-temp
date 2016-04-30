@@ -6,7 +6,7 @@ var CreateComponent = (function () {
     CreateComponent = __decorate([
         core_1.Component({
             selector: "create",
-            templateUrl: "./components/create/create.xml",
+            templateUrl: "./components/create/create.html",
         }), 
         __metadata('design:paramtypes', [])
     ], CreateComponent);

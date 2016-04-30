@@ -3,7 +3,7 @@ import {Router} from "angular2/router";
 
 @Component({
     selector: "list",
-    templateUrl: "./components/list/list.xml",
+    templateUrl: "./components/list/list.html",
 })
 export class ListComponent {
     router: Router;

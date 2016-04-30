@@ -12,7 +12,7 @@ var ListComponent = (function () {
     ListComponent = __decorate([
         core_1.Component({
             selector: "list",
-            templateUrl: "./components/list/list.xml",
+            templateUrl: "./components/list/list.html",
         }), 
         __metadata('design:paramtypes', [router_1.Router])
     ], ListComponent);
